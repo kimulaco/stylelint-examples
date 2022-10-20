@@ -1,0 +1,11 @@
+@use "sass:map";
+@use "./red" as *;
+
+.red {
+  color: rgba(
+    map.get($rgba, "r"),
+    map.get($rgba, "g"),
+    map.get($rgba, "b"),
+    map.get($rgba, "a")
+  );
+}

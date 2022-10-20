@@ -2,9 +2,12 @@
   "name": "stylelint-examples",
   "private": true,
   "scripts": {
-    "lint": "stylelint styles/*.css"
+    "compile": "sass ./styles/main.scss dist/main.css --no-source-map",
+    "lint": "stylelint styles/*.scss"
   },
   "devDependencies": {
-    "stylelint": "^14.14.0"
+    "sass": "^1.55.0",
+    "stylelint": "^14.14.0",
+    "stylelint-scss": "^4.3.0"
   }
 }
