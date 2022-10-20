@@ -1,0 +1,10 @@
+{
+  "name": "stylelint-examples",
+  "private": true,
+  "scripts": {
+    "lint": "stylelint styles/*.css"
+  },
+  "devDependencies": {
+    "stylelint": "^14.14.0"
+  }
+}
