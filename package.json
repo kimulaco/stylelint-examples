@@ -5,6 +5,6 @@
     "lint": "stylelint styles/*.css"
   },
   "devDependencies": {
-    "stylelint": "^14.14.0"
+    "stylelint": "^15.11.0"
   }
 }
